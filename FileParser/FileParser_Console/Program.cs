@@ -12,7 +12,6 @@ namespace FileParser_Console
         {
             FilePath f = new FilePath();
             CSVReader c = new CSVReader();
-            ToDataTable d = new ToDataTable();
             
             Console.WriteLine("What is your user account name?");
             f.File = Appender.UpdateFilePath(Console.ReadLine(), f.File);

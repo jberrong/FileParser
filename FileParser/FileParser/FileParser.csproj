@@ -50,9 +50,7 @@
     <Compile Include="FileReader\CSVReader.cs" />
     <Compile Include="FileReader\TextReader.cs" />
     <Compile Include="Item\FilePath.cs" />
-    <Compile Include="Item\Table.cs" />
-    <Compile Include="Manipulation\ToDataTable.cs" />
-    <Compile Include="Manipulation\ToJSON.cs" />
+    <Compile Include="Manipulation\TableConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data;
 
 namespace FileParser.Manipulation
 {
-    public class ToDataTable
+    public class TableConverter
     {
         public string[] ConvertHeaders(string[] dataArray)
         {

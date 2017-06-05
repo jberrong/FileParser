@@ -11,7 +11,7 @@ namespace FileParser.FileReader
         public DataTable GetCSVAsTable(string filePath)
         {
             DataTable table = new DataTable();
-            var contents = File.ReadAllText("C:\\Users\\JB\\Documents\\Names.csv").Split('\n');
+            var contents = File.ReadAllText(filePath).Split('\n');
             string[] headerNames = conv.ConvertHeaders(contents);
             var body = conv.ConvertBody(contents);
 
