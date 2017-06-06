@@ -1,0 +1,6 @@
+C:\Projects\FileParser\FileParser\bin\Debug\FileParser.dll.config
+C:\Projects\FileParser\FileParser\bin\Debug\FileParser.dll
+C:\Projects\FileParser\FileParser\bin\Debug\FileParser.pdb
+C:\Projects\FileParser\FileParser\obj\Debug\FileParser.dll
+C:\Projects\FileParser\FileParser\obj\Debug\FileParser.pdb
+C:\Projects\FileParser\FileParser\obj\Debug\FileParser.csprojResolveAssemblyReference.cache

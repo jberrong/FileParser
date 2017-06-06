@@ -1,0 +1,16 @@
+C:\Projects\FileParser\FileParser\obj\Debug\FileParser.dll
+C:\Projects\FileParser\FileParser\obj\Debug\FileParser.pdb
+C:\Projects\FileParser\FileParser\bin\Debug\FileParser.dll.config
+C:\Projects\FileParser\FileParser\bin\Debug\FileParser.dll
+C:\Projects\FileParser\FileParser\bin\Debug\FileParser.pdb
+C:\Projects\FileManipulator\FileManipulator\obj\Debug\FileParser.dll
+C:\Projects\FileManipulator\FileManipulator\obj\Debug\FileParser.pdb
+C:\Projects\FileManipulator\FileManipulator\bin\Debug\FileParser.dll.config
+C:\Projects\FileManipulator\FileManipulator\bin\Debug\FileParser.dll
+C:\Projects\FileManipulator\FileManipulator\bin\Debug\FileParser.pdb
+C:\Projects\FileToTable\FileManipulator\bin\Debug\FileParser.dll.config
+C:\Projects\FileToTable\FileManipulator\bin\Debug\FileParser.dll
+C:\Projects\FileToTable\FileManipulator\bin\Debug\FileParser.pdb
+C:\Projects\FileToTable\FileManipulator\obj\Debug\FileManipulator.csprojResolveAssemblyReference.cache
+C:\Projects\FileToTable\FileManipulator\obj\Debug\FileParser.dll
+C:\Projects\FileToTable\FileManipulator\obj\Debug\FileParser.pdb
