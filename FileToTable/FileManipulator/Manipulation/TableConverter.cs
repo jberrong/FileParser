@@ -13,8 +13,18 @@ namespace FileManipulator.Manipulation
         {
             List<string[]> body = new List<string[]>();
             foreach (string line in dataArray)
-                body.Add(line.Split(',').ToArray());
+            {
+                var textArray = line.Split(',').ToArray();
+                int iterator = 0;
+                while (iterator < textArray.Length)
+                {
+                    textArray[iterator].Trim();
+                    iterator++;
+                }
+                body.Add(textArray);
+            }
             body.RemoveAt(0);
+            body.RemoveAt(body.IndexOf(body.Last()));
 
             return body;
         }

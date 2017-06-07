@@ -2,6 +2,7 @@
 using FileManipulator.FileReader;
 using FileManipulator.Item;
 using FileManipulator.FileLogic;
+using FileManipulator.Manipulation;
 
 namespace FileManipulator_Console
 {
@@ -12,6 +13,7 @@ namespace FileManipulator_Console
             FilePath _file = new FilePath();
             CSVReader _csv = new CSVReader();
             ExcecutionRouter _route = new ExcecutionRouter();
+            JSONConverter _json = new JSONConverter();
             
             Console.WriteLine("What is your user account name?");
             _file.File = Appender.UpdateFilePath(Console.ReadLine(), _file.File);
@@ -29,6 +31,10 @@ namespace FileManipulator_Console
 
             var dataFile = _route.RouteAsTable(_file.File);
             _csv.OutputDataTable(dataFile);
+
+            Console.WriteLine("\nto JSON");
+            var jsonItem = _json.ConvertTableToJSON(dataFile);
+            Console.WriteLine(jsonItem);
             Console.WriteLine("Press Enter to exit.");
             Console.Read();
         }
