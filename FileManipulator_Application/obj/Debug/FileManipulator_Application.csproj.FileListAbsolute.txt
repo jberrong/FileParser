@@ -1,7 +1,6 @@
 C:\Projects\FileToTable\FileManipulator_Application\bin\Debug\FileManipulator_Application.exe.config
 C:\Projects\FileToTable\FileManipulator_Application\bin\Debug\FileManipulator_Application.exe
 C:\Projects\FileToTable\FileManipulator_Application\bin\Debug\FileManipulator_Application.pdb
-C:\Projects\FileToTable\FileManipulator_Application\obj\Debug\FileManipulator_Application.csprojResolveAssemblyReference.cache
 C:\Projects\FileToTable\FileManipulator_Application\obj\Debug\FileManipulator_Application.Properties.Resources.resources
 C:\Projects\FileToTable\FileManipulator_Application\obj\Debug\FileManipulator_Application.csproj.GenerateResource.Cache
 C:\Projects\FileToTable\FileManipulator_Application\obj\Debug\FileManipulator_Application.exe
