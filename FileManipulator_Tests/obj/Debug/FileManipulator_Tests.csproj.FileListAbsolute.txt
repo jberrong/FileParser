@@ -1,10 +1,8 @@
 C:\Projects\FileToTable\FileManipulator_Tests\bin\Debug\FileManipulator_Tests.dll
 C:\Projects\FileToTable\FileManipulator_Tests\bin\Debug\FileManipulator_Tests.pdb
 C:\Projects\FileToTable\FileManipulator_Tests\bin\Debug\FileParser.dll
-C:\Projects\FileToTable\FileManipulator_Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Projects\FileToTable\FileManipulator_Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Projects\FileToTable\FileManipulator_Tests\bin\Debug\FileParser.pdb
-C:\Projects\FileToTable\FileManipulator_Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Projects\FileToTable\FileManipulator_Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\FileToTable\FileManipulator_Tests\obj\Debug\FileManipulator_Tests.csprojResolveAssemblyReference.cache
 C:\Projects\FileToTable\FileManipulator_Tests\obj\Debug\FileManipulator_Tests.dll

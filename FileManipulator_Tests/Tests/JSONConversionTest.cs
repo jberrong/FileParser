@@ -32,10 +32,21 @@ namespace FileManipulator_Tests.Tests
                 foreach (DataColumn column in comparisonTable.Columns)
                     Console.WriteLine(column.ColumnName);
 
+                Console.WriteLine("Table rows:");
+                foreach (DataRow row in _table.Rows)
+                    Console.WriteLine(string.Join(", ", row.ItemArray));
+                Console.WriteLine("Table column names:");
+                foreach (DataColumn column in _table.Columns)
+                    Console.WriteLine(column.ColumnName);
+
+                Console.WriteLine("Columns match?:{0}", Comparisons.CompareTableHeaders(_table, comparisonTable));
+                Console.WriteLine("Rows match?:{0}", Comparisons.CompareTableRows(_table, comparisonTable));
+
                 Console.WriteLine("Comparison Table rows:");
                 foreach (DataRow row in comparisonTable.Rows)
                     Console.WriteLine(string.Join(", ", row.ItemArray));
                 Assert.IsTrue(false);
+
             }
         }
     }

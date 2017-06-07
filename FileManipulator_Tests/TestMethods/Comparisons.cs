@@ -16,7 +16,7 @@ namespace FileManipulator_Tests.TestMethods
             else
                 return false;
         }
-        private static bool CompareTableHeaders(DataTable table1, DataTable table2)
+        public static bool CompareTableHeaders(DataTable table1, DataTable table2)
         {
             string columns1 = string.Empty;
             string columns2 = string.Empty;
@@ -35,15 +35,15 @@ namespace FileManipulator_Tests.TestMethods
                 return true;
             }
         }
-        private static bool CompareTableRows(DataTable table1, DataTable table2)
+        public static bool CompareTableRows(DataTable table1, DataTable table2)
         {
             string rows1 = string.Empty;
             string rows2 = string.Empty;
             foreach (DataRow row in table1.Rows)
-                rows1 = rows1 + "\n" + string.Join(",", row.ItemArray);
+                rows1 = rows1 + string.Join(",", row.ItemArray);
 
             foreach (DataRow row in table1.Rows)
-                rows2 = rows2 + "\n" + string.Join(",", row.ItemArray);
+                rows2 = rows2 + string.Join(",", row.ItemArray);
 
             if (rows1 != rows2)
             {
@@ -54,7 +54,13 @@ namespace FileManipulator_Tests.TestMethods
                 return true;
             }
         }
-
+        public static bool CheckRowForCommas(DataRow row)
+        {
+            if (string.Join("", row).Contains(","))
+                return true;
+            else
+                return false;
+        }
 
     }
 }
