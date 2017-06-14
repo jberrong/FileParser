@@ -11,7 +11,6 @@ namespace FileManipulator_Console
         static void Main(string[] args)
         {
             FilePath _file = new FilePath();
-            CSVReader _csv = new CSVReader();
             ExcecutionRouter _route = new ExcecutionRouter();
             JSONConverter _json = new JSONConverter();
             
@@ -30,7 +29,7 @@ namespace FileManipulator_Console
             _file.File = _file.File + Console.ReadLine();
 
             var dataFile = _route.RouteAsTable(_file.File);
-            _csv.OutputDataTable(dataFile);
+            
 
             Console.WriteLine("\nto JSON");
             var jsonItem = _json.ConvertTableToJSON(dataFile);

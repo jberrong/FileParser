@@ -12,12 +12,12 @@ namespace FileManipulator_Tests.Tests
         [TestMethod]
         public void CSVConversion()
         {
-            CSVReader _csv = new CSVReader();
             DataTable _table = new DataTable();
             string filePath = "../../Files/Names.csv";
             bool hasComma = true;
+            CSVReader _csv = new CSVReader(filePath);
 
-            _table = _csv.GetCSVAsTable(filePath);
+            _table = _csv.table;
             foreach(DataRow row in _table.Rows)
             {
                 hasComma = Comparisons.CheckRowForCommas(row);

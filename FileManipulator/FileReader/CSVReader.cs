@@ -8,8 +8,14 @@ namespace FileManipulator.FileReader
     public class CSVReader
     {
         TableConverter conv = new TableConverter();
-
-        public DataTable GetCSVAsTable(string filePath)
+        string filePath;
+        public DataTable table;
+        public CSVReader(string file)
+        {
+            filePath = file;
+            table = GetCSVAsTable();
+        }
+        public DataTable GetCSVAsTable()
         {
             DataTable table = new DataTable();
             var contents = File.ReadAllText(filePath).Split('\n');

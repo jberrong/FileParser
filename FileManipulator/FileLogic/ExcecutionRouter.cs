@@ -15,8 +15,8 @@ namespace FileManipulator.FileLogic
             {
                 if (fileExt == ".csv")
                 {
-                    CSVReader csv = new CSVReader();
-                    table = csv.GetCSVAsTable(filePath);
+                    CSVReader csv = new CSVReader(filePath);
+                    table = csv.table;
                     return table;
                 }
                 if (fileExt == ".txt")

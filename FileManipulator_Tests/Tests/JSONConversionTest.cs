@@ -14,11 +14,11 @@ namespace FileManipulator_Tests.Tests
         public void JSONConversion()
         {
             JSONConverter _json = new JSONConverter();
-            CSVReader _csv = new CSVReader();
             DataTable _table = new DataTable();
             string filePath = "../../Files/Names.csv";
+            CSVReader _csv = new CSVReader(filePath);
 
-            _table = _csv.GetCSVAsTable(filePath);
+            _table = _csv.table;
             var json = _json.ConvertTableToJSON(_table);
             var comparisonTable = _json.ConvertJSONToTable(json);
 

@@ -21,6 +21,5 @@ C:\Projects\FileToTable\FileManipulator_Console\bin\Debug\FileParser.dll
 C:\Projects\FileToTable\FileManipulator_Console\bin\Debug\Newtonsoft.Json.dll
 C:\Projects\FileToTable\FileManipulator_Console\bin\Debug\FileParser.pdb
 C:\Projects\FileToTable\FileManipulator_Console\bin\Debug\Newtonsoft.Json.xml
-C:\Projects\FileToTable\FileManipulator_Console\obj\Debug\FileManipulator_Console.csprojResolveAssemblyReference.cache
 C:\Projects\FileToTable\FileManipulator_Console\obj\Debug\FileParser_Console.exe
 C:\Projects\FileToTable\FileManipulator_Console\obj\Debug\FileParser_Console.pdb
