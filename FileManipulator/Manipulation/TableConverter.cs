@@ -3,13 +3,13 @@ using System.Linq;
 
 namespace FileManipulator.Manipulation
 {
-    public class TableConverter
+    static public class TableConverter
     {
-        public string[] ConvertHeaders(string[] dataArray)
+        static public string[] ConvertHeaders(string[] dataArray)
         {
             return dataArray.First().Split(',').ToArray();
         }
-        public IList<string[]> ConvertBody(string[] dataArray)
+        static public IList<string[]> ConvertBody(string[] dataArray)
         {
             List<string[]> body = new List<string[]>();
             foreach (string line in dataArray)

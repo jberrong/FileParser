@@ -7,7 +7,6 @@ namespace FileManipulator.FileReader
 {
     public class CSVReader
     {
-        TableConverter conv = new TableConverter();
         string filePath;
         public DataTable table;
         public CSVReader(string file)
@@ -19,8 +18,8 @@ namespace FileManipulator.FileReader
         {
             DataTable table = new DataTable();
             var contents = File.ReadAllText(filePath).Split('\n');
-            string[] headerNames = conv.ConvertHeaders(contents);
-            var body = conv.ConvertBody(contents);
+            string[] headerNames = TableConverter.ConvertHeaders(contents);
+            var body = TableConverter.ConvertBody(contents);
 
             foreach (string column in headerNames)
                 table.Columns.Add(column);
